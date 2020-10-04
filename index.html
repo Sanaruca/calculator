@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+
+        <p class="display">0</p>
+
+        <div class="botones">
+            <div class="numbers">
+                <button data-key="46" id="cleanAll">AC</button>
+                <button data-key="49" class="N">1</button>
+                <button data-key="52" class="N">4</button>
+                <button data-key="55" class="N">7</button>
+                <button data-key="48" class="N">0</button>
+                <button data-key="13" id="equals">=</button>
+            </div>
+
+            <div class="numbers">
+                <button data-key="" id="clean">C</button>
+                <button data-key="50" class="N">2</button>
+                <button data-key="53" class="N">5</button>
+                <button data-key="56" class="N">8</button>
+            </div>
+
+            <div class="numbers">
+                <button data-key="" id="mm">+/-</button>
+                <button data-key="51" class="N">3</button>
+                <button data-key="54" class="N">6</button>
+                <button data-key="57" class="N">9</button>
+            </div>
+
+            <div class="numbers">
+                <button data-key="8" id="delete">~</button>
+                <button data-key="" class="mathSign between" onclick="changeMathSign('/')">÷</button>
+                <button data-key="" class="mathSign by" onclick="changeMathSign('*')">×</button>
+                <button data-key="189" class="mathSign subs" onclick="changeMathSign('-')"> - </button>
+                <button data-key="187" class="mathSign add" onclick="changeMathSign('+')">+</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="scripts/main.js" type="text/javascript" charset="utf-8"></script>
+    <script src="scripts/keyboard_support.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

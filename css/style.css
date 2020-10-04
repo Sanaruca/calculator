@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+  background-color: rgb(240, 240, 240);
+}
+
+
+  .calculator{
+    background-color: #b1b1b1;
+    padding: 10px;
+    display: inline-block;
+  }
+
+  .botones{
+    display: flex;
+    width: 320px;
+    height: 400px;
+    background-color:#cfcfcf;
+  }
+  
+  button {
+    font-family: Northead;
+    font-size: 35px;
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    padding: 0;
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+  }
+
+  button:hover{
+    box-shadow: 0 0px 10px rgba(8, 4, 4, 0.39);
+  }
+
+  .mathSign {
+    font-family: sans-serif;
+    background-color: #ff6500;
+    font-size: x-large;
+    color: white;
+  }
+  
+  #equals{
+    font-family: sans-serif;
+    width: 150px;
+    font-size: x-large;
+    background-color: #3a3a3a;
+    color: white;
+    position: absolute;
+  }
+
+  #cleanAll{
+    background-color: crimson;
+    color: white;
+  }
+  
+  .display {
+    font-family: Northead;
+    width: 310px;
+    margin: 10px 0;
+    padding: 5px;
+    text-align: end;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+  }
+  
+  #delete{
+    background-color: darkgrey;
+    color: white;
+  }
+  
+  #clean{
+    background-color: #ff5656;
+    color: white;
+  }
+  
+  #mm{
+    background-color: #dc9a70;
+    color: white;
+  }
+
+
+  @font-face{
+    font-family: Northead;
+    src: url(../fonts/Northead-0WgdX.ttf);
+  }
